@@ -147,7 +147,7 @@ header .toggle .line::after {
 
 .menu-panel .cv-btn button {
   position: absolute;
-  bottom: 3rem;
+  bottom: 15vh;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
