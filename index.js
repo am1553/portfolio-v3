@@ -30,6 +30,7 @@ function navBtnClick() {
 }
 
 function closePanel() {
+    body.style.position = '';
     navBtn.classList.remove('toggle');
     menuPanel.classList.remove('active')
 }
