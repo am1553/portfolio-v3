@@ -3,7 +3,7 @@
 const navBtn = document.getElementById('nav-btn');
 const menuPanel = document.getElementById('menu-panel');
 const links = document.querySelectorAll('.links');
-
+const body = document.getElementById('body');
 
 // EVENTLISTENERS
 
@@ -20,10 +20,12 @@ for(let i = 0; i < links.length; i++) {
 function navBtnClick() {
     if(menuPanel.classList.contains('active')) {
         navBtn.classList.remove('toggle');
-        menuPanel.classList.remove('active')
+        menuPanel.classList.remove('active');
+        body.style.position = ''
     } else {
         menuPanel.classList.add('active');
-        navBtn.classList.add('toggle')
+        navBtn.classList.add('toggle');
+        body.style.position = 'fixed'
     }
 }
 
