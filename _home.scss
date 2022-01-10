@@ -1,0 +1,51 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: $gold;
+  .home-image {
+    padding-top: 7rem;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    img {
+      display: block;
+      width: 100%;
+      position: absolute;
+      left: -50%;
+      max-height: 20rem;
+      object-fit: cover;
+    }
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 40vh;
+    margin: 0 2rem;
+    h1 {
+      color: white;
+    }
+    h1,
+    h2 {
+      margin: 1rem 0;
+    }
+    h2 {
+      padding: 1rem;
+      background-color: white;
+      color: $gold;
+      span {
+        color: $maroon;
+      }
+    }
+    .project-anchor {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $desaturated-brown;
+      border: 1px solid $maroon;
+      padding: 1rem 2rem;
+      margin: 1rem 0;
+      display: inline-block;
+      font-weight: 300;
+      box-shadow: 5px 5px 10px -3px rgba(255, 255, 255, 0.315);
+    }
+  }
+}

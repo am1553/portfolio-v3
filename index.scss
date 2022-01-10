@@ -1,0 +1,19 @@
+$gold: #e3c099;
+$maroon: #6c0000;
+$desaturated-brown: #402e32;
+$desaturated-black: #202020;
+@import "typography";
+@import "header";
+@import "home";
+@import "projects";
+@import "about";
+@import "footer";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}

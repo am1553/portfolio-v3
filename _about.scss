@@ -1,0 +1,40 @@
+.about {
+  position: relative;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  p {
+    margin: 1.5rem 2rem;
+    color: $desaturated-brown;
+  }
+  .main-para {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .sub-para {
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+  .sub-sub-para,
+  .end-para {
+    font-size: 1.125rem;
+    font-weight: 300;
+  }
+  .end-para {
+    color: $gold;
+  }
+  hr {
+    width: 30%;
+    border: none;
+    height: 3px;
+    background-color: $maroon;
+    position: absolute;
+  }
+  .start {
+    top: 0;
+    left: 2rem;
+  }
+  .end {
+    bottom: 0;
+    right: 2rem;
+  }
+}
