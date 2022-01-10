@@ -10,4 +10,10 @@
     border: 1px solid $maroon;
     background: transparent;
   }
+
+  a:hover {
+    color: $gold;
+    background-color: $desaturated-brown;
+    transition: all 300ms ease;
+  }
 }

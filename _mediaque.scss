@@ -1,0 +1,128 @@
+@media screen and (min-width: 480px) {
+  .home {
+    .wrapper {
+      top: 40vh;
+      left: 20%;
+    }
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .project-card {
+      display: grid;
+      grid-template-columns: auto auto;
+      align-items: center;
+      justify-items: flex-end;
+      max-width: 40rem;
+      .project-image {
+        width: 15rem;
+        height: 100%;
+        img {
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 720px) {
+  header {
+    z-index: 10;
+    max-width: 100rem;
+    .nav-btn {
+      display: none;
+    }
+    align-items: center;
+    justify-content: center;
+    .desktop-nav {
+      width: 70vw;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .menu-panel {
+    display: none;
+  }
+  .home {
+    max-width: 100rem;
+    .home-image {
+      height: 8rem;
+      img {
+        left: 0;
+      }
+    }
+    .wrapper {
+      left: 10%;
+      max-width: 70rem;
+      .project-anchor {
+        display: none;
+      }
+    }
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    hr {
+      margin: 3rem 0;
+    }
+    .project-card {
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 0;
+      padding: 0;
+      border-radius: 0;
+      max-width: 70rem;
+      .project-information {
+        max-width: 22rem;
+      }
+      .project-image {
+        width: 30rem;
+        max-height: 30rem;
+        display: block;
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  .about {
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto;
+  }
+  .footer {
+    max-width: 40rem;
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  header {
+    .desktop-nav {
+      display: none;
+    }
+  }
+  .home {
+    .wrapper {
+      .cv-btn {
+        display: none;
+      }
+    }
+  }
+}

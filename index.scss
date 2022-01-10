@@ -8,6 +8,7 @@ $desaturated-black: #202020;
 @import "projects";
 @import "about";
 @import "footer";
+@import "mediaque";
 * {
   margin: 0;
   padding: 0;
@@ -16,4 +17,8 @@ body {
   width: 100%;
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
+}
+
+button {
+  cursor: pointer;
 }

@@ -36,7 +36,8 @@
         color: $maroon;
       }
     }
-    .project-anchor {
+    .project-anchor,
+    .cv-btn {
       text-decoration: none;
       text-transform: uppercase;
       color: $desaturated-brown;
@@ -45,7 +46,13 @@
       margin: 1rem 0;
       display: inline-block;
       font-weight: 300;
-      box-shadow: 5px 5px 10px -3px rgba(255, 255, 255, 0.315);
+    }
+
+    .project-anchor:hover,
+    .cv-btn:hover {
+      background-color: $desaturated-brown;
+      color: $gold;
+      transition: all 300ms ease;
     }
   }
 }

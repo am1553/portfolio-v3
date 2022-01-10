@@ -12,7 +12,13 @@
 </head>
 <body>
     <header>
-        <button id="nav-btn"><div class="line"></div></button>
+        <button id="nav-btn" class="nav-btn"><div class="line"></div></button>
+
+        <div class="desktop-nav">
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
     </header>
 
     <nav id="menu-panel" class="menu-panel">
@@ -36,12 +42,13 @@
                 <h2>I am a <span>Frontend Web Developer</span></h2>
             </div>
             <a href="#projects" class="project-anchor">Jump to Projects</a>
+            <a href="" download="cv.pdf" class="cv-btn">download cv</a>
         </div>
     </section>
 
     <section class="projects" id="projects">
         <div class="title">
-            <h2>Transforming designs to a pixel perfect websites.</h2>
+            <h2>Transforming designs to pixel perfect websites.</h2>
         </div>
         <hr>
 
@@ -49,7 +56,7 @@
             <div class="project-image"><img src="assets/girl-using-iphone-6-and-imac-at-office.webp" alt=""></div>
             <div class="project-information">
                 <div class="project-title"><h1>Art Gallery</h1></div>
-                <div class="project-summary"><h2>Responsive | Animations | JavaScript | SCSS | Flexbox | Grid</h2></div>
+                <div class="project-summary"><h3>Responsive | Animations | JavaScript | SCSS | Flexbox | Grid</h3></div>
                 <div class="project-buttons">
                     <a href="https://am1553.github.io/art-gallery/" target="_blank"><div class="live"><button>live</button></div></a>
                     <a href="https://github.com/am1553/art-gallery" target="_blank"><div class="code"><button>code</button></div></a>
@@ -60,7 +67,7 @@
             <div class="project-image"><img src="assets/mockup-of-three-iphones-xs-max-lying-on-a-customizable-background-253-el-_1_.webp" alt=""></div>
             <div class="project-information">
                 <div class="project-title"><h1>PayAPI</h1></div>
-                <div class="project-summary"><h2>React | Hooks | Props | Multipage | Form | SCSS</h2></div>
+                <div class="project-summary"><h3>React | Hooks | Props | Multipage | Form | SCSS</h3></div>
                 <div class="project-buttons">
                     <a href="https://am1553.github.io/payapi/" target="_blank"><div class="live"><button>live</button></div></a>
                     <a href="https://github.com/am1553/payapi" target="_blank"><div class="code"><button>code</button></div></a>
@@ -71,7 +78,7 @@
             <div class="project-image"><img src="assets/mockup-of-an-iphone-xs-with-a-guy-playing-guitar-in-the-back-25752-2.webp" alt=""></div>
             <div class="project-information">
                 <div class="project-title"><h1>Devfinder</h1></div>
-                <div class="project-summary"><h2>React | Hooks | Props | API | Responsive | SCSS</h2></div>
+                <div class="project-summary"><h3>React | Hooks | Props | API | Responsive | SCSS</h3></div>
                 <div class="project-buttons">
                     <a href="https://am1553.github.io/github-user-search/" target="_blank"><div class="live"><button>live</button></div></a>
                     <a href="https://github.com/am1553/github-user-search" target="_blank"><div class="code"><button>code</button></div></a>
@@ -89,9 +96,9 @@
         <hr class="end">
     </section>
 
-    <footer class="footer">
-        <a href="https://www.linkedin.com/in/am161/">LinkedIn</a>
-        <a href="https://github.com/am1553">Github</a>
+    <footer class="footer" id="contact">
+        <a href="https://www.linkedin.com/in/am161/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/am1553" target="_blank">Github</a>
     </footer>
 
     <script src="index.js"></script>

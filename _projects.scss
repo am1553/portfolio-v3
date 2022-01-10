@@ -1,6 +1,7 @@
 .projects {
   .title {
     margin: 4rem 2rem;
+    max-width: 50rem;
     h2 {
       color: $desaturated-brown;
     }
@@ -10,7 +11,9 @@
     height: 1px;
     background-color: $desaturated-brown;
     margin: 2rem 2rem 0;
-    opacity: 0.1;
+    opacity: 0.2;
+    width: 80%;
+    max-width: 50rem;
   }
   .project-one {
     background-color: $desaturated-brown;
@@ -22,6 +25,14 @@
         button {
           color: $gold;
           border: 1px solid $gold;
+        }
+      }
+
+      a:hover {
+        button {
+          color: $desaturated-brown;
+          background-color: $gold;
+          transition: all 300ms ease;
         }
       }
     }
@@ -38,6 +49,13 @@
           border: 1px solid $maroon;
         }
       }
+      a:hover {
+        button {
+          color: $gold;
+          background-color: $desaturated-brown;
+          transition: all 300ms ease;
+        }
+      }
     }
   }
   .project-three {
@@ -52,6 +70,13 @@
           border: 1px solid $gold;
         }
       }
+      a:hover {
+        button {
+          color: $desaturated-black;
+          background-color: $gold;
+          transition: all 300ms ease;
+        }
+      }
     }
   }
   .project-card {
@@ -64,7 +89,7 @@
       h1 {
         margin: 2rem 0 1rem;
       }
-      h2 {
+      h3 {
         opacity: 0.3;
         color: white;
       }
